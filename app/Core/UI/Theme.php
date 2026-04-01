@@ -985,7 +985,7 @@ class Theme
                 session(['usersettings.colors.secondaryColor' => $this->config->secondaryColor]);
             }
 
-            $secondaryColor = $this->settingsRepo->getSetting('companysettings.secondaryColor');
+            $secondaryColor = $this->settingsRepo->getSetting('companysettings.secondarycolor');
             if ($secondaryColor !== false) {
                 session(['usersettings.colors.secondaryColor' => $secondaryColor]);
             }
